@@ -1,1 +1,4 @@
-module.exports = Support = { VERSION = "0.4.0" };
+module.exports = function() {
+  window.Support = {};
+  Support.VERSION = "0.4.0";
+};
