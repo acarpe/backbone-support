@@ -1,6 +1,6 @@
 Backbone = require('backbone')
 _ = require('underscore')
-require('./backbone-support/support.js');
-require('./backbone-support/observer.js');
-require('./backbone-support/composite_view.js');
-require('./backbone-support/swapping_router.js');
+Support = require('./backbone-support/support.js');
+Support.Observer = require('./backbone-support/observer.js');
+Support.CompositeView = require('./backbone-support/composite_view.js');
+Support.SwappingRouter = require('./backbone-support/swapping_router.js');
