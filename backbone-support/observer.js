@@ -1,4 +1,4 @@
-module.exports = (function() {
+(function() {
 
   Support.Observer = function() {};
 
