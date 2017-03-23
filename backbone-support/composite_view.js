@@ -1,4 +1,4 @@
-Support.CompositeView = Backbone.View.extend({
+module.exports = Support.CompositeView = Backbone.View.extend({
   constructor: function(options) {
     this.children = _([]);
     Backbone.View.call(this, options);

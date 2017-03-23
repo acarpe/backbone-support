@@ -1,4 +1,4 @@
-Support.SwappingRouter = Backbone.Router.extend({
+module.exports = Support.SwappingRouter = Backbone.Router.extend({
   swap: function(newView) {
     if (this.currentView && this.currentView.leave) {
       this.currentView.leave();

@@ -1,2 +1,4 @@
-window.Support = {};
-Support.VERSION = "0.4.0";
+module.exports = {
+  window.Support = {};
+  Support.VERSION = "0.4.0";
+}
